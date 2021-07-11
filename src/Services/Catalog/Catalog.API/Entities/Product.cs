@@ -30,7 +30,7 @@ namespace Catalog.API.Entities
         public string ImageFile { get; set; }
         
         [BsonElement("Price")]
-        public string Price { get; set; }
+        public decimal Price { get; set; }
 
     }
 }
